@@ -15,14 +15,13 @@ export function AddTask() {
 
   return (
     <div
-      className={`p-6 text-center max-w-md mx-auto rounded-lg shadow-md transition-all duration-300 
+      className={`p-6 text-center max-w-md mx-auto  transition-all duration-300 
                     ${
                       darkMode
                         ? "bg-primary text-background"
                         : "bg-background text-primary"
                     }`}
     >
-      {/* Input y Botón */}
       <div className="flex items-center justify-center gap-2">
         <input
           type="text"
