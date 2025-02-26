@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#27445D",
+        secondary: "#497D74",
+        accent: "#71BBB2",
+        background: "#EFE9D5",
       },
     },
   },
